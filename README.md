@@ -1,4 +1,4 @@
-# PETSA - Personal Health Monitoring System
+# PETSA - Cattle Health Monitoring System
 
 [![Arduino](https://img.shields.io/badge/Arduino-ESP8266-blue.svg)](https://www.arduino.cc/)
 [![Azure IoT](https://img.shields.io/badge/Azure-IoT%20Hub-0078d4.svg)](https://azure.microsoft.com/en-us/services/iot-hub/)
