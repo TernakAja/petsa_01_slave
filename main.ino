@@ -349,12 +349,8 @@ public:
 
     float readTemperature()
     {
-        float temp = mlx.readCoreBodyTemperature();
-        if (temp > 100.0 || temp < 30.0)
-        {
-            return 38.5;
-        }
-        return temp;
+        float temp = mlx.readCoreBodyTemperature();        
+        return temp + 5;
     }
 
     float readHeartBeat()
